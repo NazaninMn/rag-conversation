@@ -1,26 +1,42 @@
-# --- Core LangChain packages ---
+# ----- LangChain (Compatible versions) -----
 langchain==0.2.12
-langchain-core==0.2.8
+langchain-core==0.2.27
 langchain-community==0.2.6
 langchain-text-splitters==0.2.1
+langchain-openai==0.1.13
 langchain-groq==0.1.3
 langchain-chroma==0.1.3
 langchain-huggingface
+langgraph==0.1.14
 
-# --- Embeddings / Model Hub ---
+# ----- Embeddings -----
 sentence-transformers
 huggingface_hub
 
-# --- Vector store / similarity search ---
+# ----- Vector DB + Storage -----
 chromadb
 faiss-cpu
 duckdb
 
-# --- PDF processing ---
+# ----- PDF Processing -----
 pypdf
 pymupdf
 
-# --- Web UI ---
+# ----- Streamlit UI + Tools -----
 streamlit
 python-dotenv
 pandas
+
+# ----- Optional Extras (you requested them explicitly) -----
+bs4
+arxiv
+wikipedia
+validators==0.28.1
+duckduckgo_search==5.3.1b1
+youtube_transcript_api
+numexpr
+ipykernel
+openai
+mysql-connector-python
+SQLAlchemy
+unstructured
