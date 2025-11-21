@@ -1,32 +1,26 @@
+# --- Core LangChain packages ---
 langchain==0.2.12
 langchain-core==0.2.8
 langchain-community==0.2.6
 langchain-text-splitters==0.2.1
-langchain-openai==0.1.13
 langchain-groq==0.1.3
 langchain-chroma==0.1.3
-langgraph==0.1.14
+langchain-huggingface
 
+# --- Embeddings / Model Hub ---
+sentence-transformers
+huggingface_hub
+
+# --- Vector store / similarity search ---
+chromadb
+faiss-cpu
+duckdb
+
+# --- PDF processing ---
+pypdf
+pymupdf
+
+# --- Web UI ---
 streamlit
 python-dotenv
 pandas
-pypdf
-pymupdf
-chromadb
-sentence-transformers
-huggingface_hub
-langchain-huggingface
-faiss-cpu
-duckdb
-bs4
-arxiv
-wikipedia
-validators==0.28.1
-duckduckgo_search==5.3.1b1
-youtube_transcript_api
-numexpr
-ipykernel
-openai
-mysql-connector-python
-SQLAlchemy
-unstructured
